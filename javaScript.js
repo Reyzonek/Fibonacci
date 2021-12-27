@@ -1,8 +1,5 @@
-function Fibonacci(number){
-  for(let i = 0; i < number; i++){
-    let first = 0;
-    let second = 1; 
-    let third = first + second; 
-    let fourth = 
-  }
-}
+function Fibonacci(number){  
+    result = (1 / Math.sqrt(5)) * Math.pow(((1 + Math.sqrt(5)) / 2), number) - (1 / Math.sqrt(5)) * Math.pow(((1 - Math.sqrt(5)) / 2), number)     
+} 
+
+console.log(Fibonacci(6));
